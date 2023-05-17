@@ -221,6 +221,7 @@ p {
 
 .advantage-list-item {
     width: calc((100% - 72px) / 4);
+    background-color: var(--color-cloud);
 }
 
 .advantage-list .subtitle {
@@ -239,6 +240,15 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+}
+
+.underhero-icon {
+    margin: 24px 100px;
+}
+
+.advantage-list-under-icon {
+    padding-top: 8px;
+    background-color: var(--color-white);
 }
 
 /**
@@ -339,6 +349,16 @@ p {
     margin: 0;
     padding: 32px 16px;
 }
+
+.team-section-icon-list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-icon {}
 
 /**
   |============================
