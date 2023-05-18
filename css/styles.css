@@ -337,6 +337,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+    margin-bottom: 8px;
 }
 
 .team-section-content {
@@ -353,12 +354,53 @@ p {
 .team-section-icon-list {
     list-style: none;
     display: flex;
-    gap: 48px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
 }
 
-.team-icon {}
+.social-icons-item {
+    background-color: var(--color-iris);
+    padding: 12px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.team-icon {
+    fill: var(--color-cloud);
+}
+
+/**
+  |============================
+  | Customers section
+  |============================
+*/
+
+.customers-section {
+    padding: 120px 0;
+}
+
+.customers-section-title {
+    margin: 0;
+    margin-bottom: 72px;
+    display: block;
+    text-align: center;
+}
+
+.customers-section-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+}
+
+.customers-icon {
+    fill: var(--color-light-slate);
+    padding: 16px 32px;
+    border: 1px solid var(--color-light-slate);
+    border-radius: 4px;
+}
 
 /**
   |============================
@@ -367,6 +409,7 @@ p {
 */
 
 .footer {
+    display: flex;
     background-color: var(--color-navy-blue);
     padding: 100px 0;
 }
