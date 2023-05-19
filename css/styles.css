@@ -223,7 +223,6 @@ p {
 
 .advantage-list-item {
     width: calc((100% - 72px) / 4);
-    background-color: var(--color-cloud);
 }
 
 .advantage-list .subtitle {
@@ -245,12 +244,15 @@ p {
 }
 
 .advantage-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     padding: 24px 100px;
-}
+    background-color: var(--color-cloud);
+    border-radius: 4px;
+    margin-bottom: 8px;
 
-.advantage-list-under-icon {
-    padding-top: 8px;
-    background-color: var(--color-white);
 }
 
 /**
