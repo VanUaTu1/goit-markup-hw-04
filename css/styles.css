@@ -445,9 +445,29 @@ p {
 */
 
 .footer {
-    display: flex;
     background-color: var(--color-navy-blue);
     padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
+
+.footer-text {}
+
+.footer-upper-icon {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
 }
 
 .footer .link {
