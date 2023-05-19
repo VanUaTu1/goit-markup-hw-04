@@ -406,16 +406,26 @@ p {
 }
 
 .customers-icon {
-    fill: var(--color-light-slate);
+    fill: currentColor;
 }
 
 .customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 16px 32px;
     display: block;
     height: 100%;
     width: 100%;
     border: 1px solid var(--color-light-slate);
     border-radius: 4px;
+    color: var(--color-light-slate);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: var(--color-ocean);
+    color: var(--color-ocean);
 }
 
 .customers-section-item {
