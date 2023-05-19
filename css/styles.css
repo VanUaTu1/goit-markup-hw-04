@@ -349,7 +349,6 @@ p {
 
 .container-text {
     margin: 0;
-    /* padding: 32px 16px; */
 }
 
 .team-section-icon-list {
@@ -360,19 +359,28 @@ p {
     align-items: center;
 }
 
-.social-icons-item {
-    background-color: var(--color-iris);
-    padding: 12px;
-    border-radius: 50%;
-    height: 40px;
-}
-
 .team-icon {
     fill: var(--color-cloud);
 }
 
 .team-section-img {
     padding: 32px 0;
+}
+
+.team-section-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-iris);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.team-section-link:hover,
+.team-section-link:focus {
+    background-color: var(--color-ocean);
 }
 
 /**
