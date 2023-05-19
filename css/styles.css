@@ -470,6 +470,8 @@ p {
 
 .footer-link {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
     background-color: var(--color-iris);
@@ -480,7 +482,7 @@ p {
 
 .footer-link:hover,
 .footer-link:focus {
-    background-color: var(--color-ocean);
+    background-color: var(--color-green);
 }
 
 .footer-icon {
