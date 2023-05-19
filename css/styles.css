@@ -53,7 +53,7 @@ p {
 
 /**
   |============================
-  | Header & Footer + Logo
+  | Header & Logo
   |============================
 */
 
@@ -475,7 +475,7 @@ p {
     height: 100%;
     width: 100%;
     background-color: var(--color-iris);
-    color: var(--color-white);
+    color: var(--color-cloud);
     border-radius: 50%;
     padding: 8px;
 }
