@@ -414,7 +414,6 @@ p {
     align-items: center;
     justify-content: center;
     padding: 16px 32px;
-    display: block;
     height: 100%;
     width: 100%;
     border: 1px solid var(--color-light-slate);
